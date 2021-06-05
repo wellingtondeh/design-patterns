@@ -5,7 +5,7 @@
 **Padrão**: *CRIACIONAL*
 
 ## Fonte de extração
-Este estudo foi feito através do site <a href="https://refactoring.guru/pt-br/design-patterns/singleton" target="_blank" class="link">Refactoring Guru</a>.
+Este estudo foi feito através do site <a href="https://refactoring.guru/pt-br/design-patterns/prototype" target="_blank" class="link">Refactoring Guru</a>.
 
 ## Propósito
 Criar uma cópia de um objeto para outro de forma simplificada e sem dependências, ou seja, um protótipo de objeto.
