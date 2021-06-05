@@ -1,19 +1,18 @@
 # 
 
-> DICA IMPORTANTE: Para execuÁ„o do projeto do padr„o utilizado, inicie pela classe App.java</div>
+> DICA IMPORTANTE: Para execu√ß√£o do projeto do padr√£o utilizado, inicie pela classe App.java
 
-**Padr„o**: *CRIACIONAL*
+**Padr√£o**: *CRIACIONAL*
 
-## Fonte de extraÁ„o
-Este estudo foi feito atravÈs do site <a href="https://refactoring.guru/pt-br/design-patterns/singleton" target="_blank" class="link">Refactoring Guru</a>.
+## Fonte de extra√ß√£o
+Este estudo foi feito atrav√©s do site <a href="https://refactoring.guru/pt-br/design-patterns/factory-method" target="_blank" class="link">Refactoring Guru</a> e do <a href="https://mhd-durrah.medium.com/factory-pattern-the-dynamic-way-with-java-8-3ca5ab48a9cf" target="_blank" class="link">mhd-durrah</a>.
 
-## PropÛsito
+## Prop√≥sito
 
 
 ## Problema proposto
 
-
-## SoluÁ„o
+## Solu√ß√£o
 
 ## Analogia com o mundo real
 
@@ -22,7 +21,7 @@ Este estudo foi feito atravÈs do site <a href="https://refactoring.guru/pt-br/de
 ## Exemplos
 
 
-## PrÛs e contras
+## Pr√≥s e contras
 
 
-## RelaÁıes com outros padrıes
+## Rela√ß√µes com outros padr√µes
