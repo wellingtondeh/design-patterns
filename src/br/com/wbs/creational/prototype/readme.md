@@ -1,28 +1,33 @@
-# 
+# Prototype
 
-> DICA IMPORTANTE: Para execu��o do projeto do padr�o utilizado, inicie pela classe App.java</div>
+> DICA IMPORTANTE: Para execução do projeto do padrão utilizado, inicie pela classe App.java
 
-**Padr�o**: *CRIACIONAL*
+**Padrão**: *CRIACIONAL*
 
-## Fonte de extra��o
-Este estudo foi feito atrav�s do site <a href="https://refactoring.guru/pt-br/design-patterns/singleton" target="_blank" class="link">Refactoring Guru</a>.
+## Fonte de extração
+Este estudo foi feito através do site <a href="https://refactoring.guru/pt-br/design-patterns/singleton" target="_blank" class="link">Refactoring Guru</a>.
 
-## Prop�sito
-
+## Propósito
+Criar uma cópia de um objeto para outro de forma simplificada e sem dependências, ou seja, um protótipo de objeto.
 
 ## Problema proposto
+Você finalmente conseguiu criar um carro (protótipo) e agora precisa criar cópias desses objetos, como seria realizado de uma maneira simples?
 
-
-## Solu��o
+## Solução
+Com o padrão *prototype* você consegue realizar essa cópia (clone) de uma maneira simples.
 
 ## Analogia com o mundo real
-
+Pode se citar, conforme o artigo referente, a mitose celular (achei ótimo o exemplo).
 
 
 ## Exemplos
+A interface **java.lang.Clonable** consegue realizar tal padrão de forma simples.
+Lembrando que, é **obrigatório** a implementação do método clone de forma publica e com *casting*.
 
+> Não realizarei a implementação do padrão sem a interface, pois é "inviável", uma vez que o próprio JAVA já aplica esse padrão dentro da SDK.
 
-## Pr�s e contras
+## Prós e contras
+Não há acoplamento e é simples a implementação. Apesar da referência (o site) informar que para objetos complexos pode ficar complicado, com a interface não passarei por isso, conforme mostrado nos exemplos no qual faço algumas referências e apenas implementei o clonable na classe principal.
 
-
-## Rela��es com outros padr�es
+## Relações com outros padrões
+N/A.
