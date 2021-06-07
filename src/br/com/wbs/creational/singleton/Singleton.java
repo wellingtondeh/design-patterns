@@ -4,8 +4,8 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 /**
- * Regra de negócio: Precisa ter a data e hora em que o objeto foi criado. 
- * Não poderá deixar qualquer outra classe atualizar a data e hora.
+ * Regra de negÃ³cio: Precisa ter a data e hora em que o objeto foi criado. 
+ * NÃ£o poderÃ¡ deixar qualquer outra classe atualizar a data e hora.
  * 
  * @author Wellington de Barros Santos
  *
@@ -21,8 +21,8 @@ public class Singleton {
 	}
 	
 	/*
-	 * De acordo com a regra de negócio o "Set" entra em modo privado 
-	 * para não deixar inserir um valor no atributo data e hora de criação do objeto.
+	 * De acordo com a regra de negÃ³cio o "Set" entra em modo privado 
+	 * para nÃ£o deixar inserir um valor no atributo data e hora de criaÃ§Ã£o do objeto.
 	 */
 	private void setObjectCreatedAt(LocalDateTime objectCreatedAt) {
 		this.objectCreatedAt = objectCreatedAt;
@@ -33,11 +33,11 @@ public class Singleton {
 	}
 	
 	/**
-	 * Cria uma instância única da classe Singleton.
+	 * Cria uma instÃ¢ncia Ãºnica da classe Singleton.
 	 * @return O objeto criado do singleton.
 	 */
 	public static Singleton getInstance() {
-		// Verifica se o atributo "thisSingleton" ainda não possui nenhuma instância.
+		// Verifica se o atributo "thisSingleton" ainda nï¿½o possui nenhuma instï¿½ncia.
 		if (Objects.isNull(thisSingleton)) {
 			
 			// inicia o atributo "thisSingleton"
