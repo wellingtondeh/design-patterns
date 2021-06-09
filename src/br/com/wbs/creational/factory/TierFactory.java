@@ -30,7 +30,9 @@ public class TierFactory {
 	 * método para registrar as pontuações dinamicamente.
 	 */
 	public static void register(Object tier, Supplier<? extends Tier> supplier) {
-		registeredTiers.put(tier, supplier);
+		if (Objects.nonNull(supplier)) {
+			registeredTiers.put(tier, supplier);
+		}
 	}
 
 	/*
